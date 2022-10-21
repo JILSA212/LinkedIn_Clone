@@ -4,6 +4,8 @@ import './Login.css';
 import { useDispatch } from 'react-redux';
 import { login } from './features/userSlice';
 
+// Login function here
+
 function Login() {
     const [email, setEmail] = React.useState('');
     const [name, setName] = React.useState('');
